@@ -79,7 +79,7 @@ const AddOns: React.FC = () => {
         ))}
         <div className="text-center mt-5">
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/selectplan")}
             type="button"
             className="back-btn mx-3"
           >

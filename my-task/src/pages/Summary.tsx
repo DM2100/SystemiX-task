@@ -87,9 +87,13 @@ const Summary: React.FC = () => {
       <div className="text-center">
         <div className="row">
           <div className="col-lg-6">
-            <button type="button" className="back-btn mt-5 mx-3">
-              Go back
-            </button>
+          <button
+                onClick={() => navigate("/addons")}
+                type="button"
+                className="back-btn mt-5 mx-3"
+              >
+                Go back
+              </button>
           </div>
           <div className="col-lg-6">
             <button
